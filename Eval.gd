@@ -13,7 +13,10 @@ const PRINT_FUNCS = {
 
 const BLACKLISTED_OBJS = [
 	"OS.",
-	"File."
+	"File.",
+	"GDScript.",
+	"ClassDB.",
+	"Expression.",
 ]
 
 var script_append := "\n#----INSERTED-----#\n\nvar output: String"
